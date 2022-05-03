@@ -11,5 +11,4 @@ from abc import ABC, abstractmethod
 class AbstractBot(ABC):
     @abstractmethod
     def act(self, obs):
-        """Return action based on observation
-        """
+        """Return action based on observation"""
