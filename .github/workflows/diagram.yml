@@ -13,4 +13,4 @@ jobs:
       - name: Update diagram
         uses: Rikkert33/RL-Imitation-Learning-V1@master
         with:
-          excluded_paths: ".github"
+          excluded_paths: "ignore,.github"
